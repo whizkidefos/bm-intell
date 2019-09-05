@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+$link-color: #44A4CD;
+$link-hover: #44A8CF;
+$bg: #1C2228;
+$body-color: #F7FFF7;
+$shadow: 0 8px 12px rgba(0,0,0,0.2), 0 5px 6px rgba(0,0,0,0.5);
+
+/*======== Global Styles ======*/ 
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    background-color: $bg;
+    color: $body-color;
+    height: 100%;
+}
+a {
+    color: $link-color;
+    transition: .3s;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+.shadow {
+    box-shadow: $shadow;
+}
+.section-container {
+    padding: 30px;
+}
+
+/*=============== Sidebar Component ================*/
+#sidebar {
+    height: 100vh;
+    padding-top: 80px;
+    position: fixed;
+    background-color: #191F26;
+}
+
+/*=============== Dashboard ================*/
+#dashboard {
+    margin-top: 60px;
+}
+/*=============== Navbar Component ================*/
+#navbar {
+    background-color: #161A1E !important;
+    box-shadow: $shadow;
+}
+/*=============== Sidebar Component ================*/
+
