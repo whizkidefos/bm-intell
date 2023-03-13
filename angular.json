@@ -131,5 +131,8 @@
         }
       }
     }},
-  "defaultProject": "bmintell"
+  "defaultProject": "bmintell",
+  "cli": {
+    "analytics": "bf591bbb-db17-4226-a9c1-8d1ebf8f6178"
+  }
 }
